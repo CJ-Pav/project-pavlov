@@ -1,0 +1,30 @@
+{
+  "name": "project-pavlov",
+  "version": "1.0.0",
+  "description": "Prolixity Solutions Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/CJ-Pav/project-pavlov"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://project-pavlov.com/bugs"
+  },
+  "homepage": "https://project-pavlov.com",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "connect-mongo": "^1.3.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.5",
+    "mongoose": "^5.4.12"
+  }
+}

@@ -1,0 +1,181 @@
+/* Prolixity Solutions */
+
+/* general styling */
+ul {
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+/* header styling */
+.header {
+    width: 100%;
+    background-color: #ba0909;
+}
+
+.header-prolixity {
+    width: 100%;
+}
+
+.headerButtonR {
+    font-size: 18px;
+    transition: opacity 0.333s cubic-bezier(0, 0, 0.21, 1);
+    border: none;
+}
+
+.headerButtonL {
+    border: none;
+}
+
+.buttonContainer {
+    padding: 5px 0 5px 0;
+    /* padding: 0; */
+    margin: 0;
+    align-items: center;
+}
+
+/* title */
+.siteTitle {
+    /* margin-left: 40px; */
+    /* color: black; */
+    padding: 0 1% 0 1%;
+    font-weight: 450;
+    font-size: 27px;
+    cursor: pointer;
+    /* position: fixed; */
+}
+
+/* loading screen */
+.loader {
+    left: 50%;
+    top: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+.loader #spinner {
+    box-sizing: border-box;
+    stroke: #cc0000;
+    stroke-width: 3px;
+}
+
+.greeter {
+    margin: 1% 0 1% 0;
+    padding: 2% 5% 2% 5%;
+    text-align: center;
+}
+
+.home-container {
+    width: 100%;
+    height: 100%;
+}
+
+.error-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+/* Buttons */
+/* #loginPage {
+    
+} */
+
+.basic-box {
+    background-color: #d3c4c4;
+    /* 842e2e */
+    /* margin: 0; */
+    /* width: 100%; */
+    padding: 0.5%;
+    border: solid 2px;
+    border-color: rgba(0, 0, 0, 0.14);
+}
+
+.basic-text {
+    font-size: 14;
+}
+
+.opt-container {
+    width: 100%;
+    margin-bottom: 1in;
+    /* margin: 10% 20% 10% 20%; */
+}
+
+.opt-box {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 4px 10px 3px rgba(0, 0, 0, 0.12), 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+    background-color: #f9f4f4;
+    margin: 2%;
+    /* padding: 3%; */
+}
+
+.opt-title {
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    padding: .5% 1% 0 1%;
+    width: 100%;
+}
+.opt-title:hover {
+    color: #b50101;
+}
+
+.opt-text {
+    text-align: left;
+    padding: 2.5% 5% 2.5% 5%;
+    width: 100%;
+}
+.opt {
+    padding: 2.5% 5% 2.5% 5%;
+    width: 100%;
+}
+
+.sec-title {
+    text-align: left;
+    font-size: 24px;
+}
+
+.proj-title {
+    text-align: center;
+    font-size: 21px;
+    margin-top: 0.5%;
+    text-decoration: none;
+    color: black;
+}
+.active-link {
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.active:hover {
+    color: darkred;
+}
+
+.proj-text {
+    font-size: 14;
+    text-align: justify;
+    padding-top: 1%;
+}
+
+.dialog {
+    margin: 2%;
+    padding: 5.5%;
+    text-align: center;
+}
+.dialog-item {
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.info-banner {
+    max-width: 100%;
+    width: 100%;
+    margin: 2% 0 0 0;
+    padding: 5% 0 2% 0;
+    background-color: black;
+    color: #c6cad1;
+}

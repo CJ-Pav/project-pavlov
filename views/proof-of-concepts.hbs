@@ -1,0 +1,61 @@
+{{!-- home page --}}
+
+{{> pavlovHeader}}
+
+<main role="main">
+    <div class="greeter">
+        Welcome! This site is under construction, but please feel free to check out a few of my projects below!
+    </div>
+
+    <div class="home-container container">
+        <section class="basic-box opt-container">
+            <div class="opt-box">
+                <div class="row">
+                    {{!-- <h3 class="opt-title col-sm-12">Current Projects</h3> --}}
+                    <div class="col-sm-2"></div>
+                    <div class="opt col-sm-8">
+                        <a class="proj-title" href="./prolixity">React</a>
+                        <p class="proj-text">
+                            React is an elablorate yet simplistic JavaScript library allowing for expediated deployment 
+                            of web applications and portals. However, with ease of use comes limited ability. Thus, we try 
+                            to limit our use of this library to allow for more depth in both design and implementation in 
+                            our web services.
+                        </p>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+
+            <div class="opt-box">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="opt col-sm-8">
+                        <a class="proj-title">The Prolixity Foundation</a>
+                        <p class="proj-text">
+                            In the works is a new, more reliable way to give back. Our charity tracker monitors for new and growing causes, 
+                            resulting in a way to reassure donors that their funds reach the appropriate cause.
+                        </p>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+
+            <div class="opt-box">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="opt col-sm-8">
+                        <a class="proj-title">Proof of Concepts</a>
+                        <p class="proj-text">
+                            A collection of templates utilizing more modern node.js libraries such as React, Bootstrap, and Express.
+                        </p>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+        </section>  
+    </div>
+    
+    {{> pavlovBanner}}
+</main>
+
+{{!-- <script src="/home.js" charset="utf-8"></script> --}}
