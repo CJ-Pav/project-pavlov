@@ -49,7 +49,7 @@ app.get('/logout', function(req, res) {
 });
 
 app.post('/sign-in', function(req, res, next) {
-    res.render('newUser');
+    res.render('sign-in');
 });
 
 /* Error Handler */
