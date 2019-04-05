@@ -43,48 +43,14 @@ app.get('/home', function(req, res) {
     // else res.render('home', req.session.data);
 });
 
-// app.get('/prolixity', function(req, res) {
-//     res.render('prolixity');
-// });
-
-// app.get('/team-prolixity', function(req, res) {
-//     res.render('team-prolixity');
-// });
-
-// app.get('/about-prolixity', function(req, res) {
-//     res.render('about-prolixity');
-// });
-
 app.get('/logout', function(req, res) {
     req.session.destroy();
     res.redirect('/');
 });
 
-
-// app.get('/Prolixity', function(req, res) {
-//     // req.session.destroy();
-//     res.redirect('http://prolixitysolutions.com');
-// });
-
-/* POST middleware */
-// app.post('/prolixity', function(req, res, next) {
-//     res.render('prolixity');
-// });
-
-// app.post('/logIn', function(req, res, next) {
-//     Account.findOne({username: req.body.username, password: req.body.password}).exec(function(err, account) {
-//         if (err) return next(err);
-//         if (account) {
-//             req.session.data = account;
-//             res.redirect('/profile');
-//         }
-//         else res.render('logInPage');
-//     });
-// });
-
-// app.post('/signUp', function(req, res, next) {
-//     res.render('newUser');
-// });
+app.post('/sign-in', function(req, res, next) {
+    res.render('newUser');
+});
 
 /* Error Handler */
 app.use(function(err, req, res, next) {

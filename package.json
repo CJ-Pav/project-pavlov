@@ -1,7 +1,7 @@
 {
   "name": "project-pavlov",
   "version": "1.0.0",
-  "description": "Prolixity Solutions Website",
+  "description": "Project Pavlov Web App",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/CJ-Pav/project-pavlov"
+    "url": "git+https://github.com/CJ-Pav/project-pavlov"
   },
   "author": "",
   "license": "ISC",
