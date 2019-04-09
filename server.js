@@ -65,4 +65,5 @@ app.use(function(req, res) {
     res.render('404Page');
 });
 
+console.log("Running project-pavlov on relevant port or defaulting to 3002.");
 app.listen(process.env.PORT || 3002);
