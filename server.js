@@ -1,20 +1,21 @@
 // Project Pavlov
 
 /* Required packages */
-const express = require('express');
-const exphbs  = require('express-handlebars');
-const session = require('express-session');
-const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
-const connectMongo = require('connect-mongo')(session);
+const express = require('express'),
+      app = express(),
+      exphbs  = require('express-handlebars'),
+      session = require('express-session'),
+      mongoose = require('mongoose'),
+      bodyParser = require('body-parser'),
+      connectMongo = require('connect-mongo')(session);
 
 /* Configuration */
-var app = express();
+var port = process.env.PORT || 3002;
+
 app.engine('hbs', exphbs({defaultLayout: 'main', extname: 'hbs'}));
 app.set('view engine', 'hbs');
 app.use(express.static("./public/"));
 app.use(bodyParser.urlencoded({ extended: true }));
-
 app.use(bodyParser.json());
 
 // var mongoUri = process.env.MONGO_URI || 'mongodb://cs290_hollenbt:secret123@classmongo.engr.oregonstate.edu/cs290_hollenbt';
@@ -65,5 +66,5 @@ app.use(function(req, res) {
     res.render('404Page');
 });
 
-console.log("Running project-pavlov on relevant port or defaulting to 3002.");
-app.listen(process.env.PORT || 3002);
+console.log("Running project-pavlov on port " + port + ".");
+app.listen(port);
