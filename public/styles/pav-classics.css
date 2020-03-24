@@ -102,7 +102,7 @@ body {
 
 .opt-container {
     width: 100%;
-    margin-bottom: 1in;
+    margin-bottom: 5%;
     /* margin: 10% 20% 10% 20%; */
 }
 
@@ -175,7 +175,7 @@ body {
     max-width: 100%;
     width: 100%;
     margin: 2% 0 0 0;
-    padding: 5% 0 2% 0;
+    padding: 2% 0 2% 0;
     background-color: black;
     color: #c6cad1;
 }
