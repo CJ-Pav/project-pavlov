@@ -18,7 +18,7 @@ app.use(express.static("./public/"));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// var mongoUri = process.env.MONGO_URI || 'mongodb://cs290_hollenbt:secret123@classmongo.engr.oregonstate.edu/cs290_hollenbt';
+// var mongoUri = process.env.MONGO_URI || 'mongodb://url';
 // mongoose.connect(mongoUri, {useMongoClient: true});
 // app.use(session({
 //     secret: 'There is no secret, only prolixity.',
